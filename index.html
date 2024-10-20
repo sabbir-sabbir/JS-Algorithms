@@ -1,27 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Insert Element in Array</title>
-    <script>
-     
-      function insertEl() {
-        let data = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
-        let newEl = document.getElementById('newEl').value;
-        newEl = parseInt(newEl)
-        let position = document.getElementById('position').value
-        console.warn(data);
+    <title>Algo-js</title>
+    <script src="index.js">
 
-        for (let i = data.length - 1; i >= 0; i--) {
-          // console.warn(data[i])
-          if (i >= position) {
-            data[i + 1] = data[i];
-            if (i == position) {
-              data[i] = newEl;
-            }
-          }
-        }
-        console.warn(data)
-      }
     </script>
   </head>
   <body>
